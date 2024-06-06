@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-links .language {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .login {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.popular-artists, .popular-albums {
+    margin-top: 20px;
+}
+
+.popular-artists h2, .popular-albums h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.artists, .albums {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.artist, .album {
+    text-align: center;
+}
+
+.artist img, .album img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.artist p, .album p {
+    font-size: 14px;
+}
+
+.album p:last-child {
+    color: #b3b3b3;
+}
