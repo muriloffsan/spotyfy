@@ -315,7 +315,9 @@ body {
 .icones {
     filter: brightness(0) invert(1);
 }
-
+.pre-btn img {
+    filter: brightness(0) invert(1);
+}
 
 
 
