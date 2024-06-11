@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body {
- background-color: black;   
+ background-color: #000;   
 }
 .sidebar {
     width: 300px;
-    background: #333333;
+    background: #030303;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar-nav {
-    background: #373636;
+    background: #111111;
     border-radius: 5px;
     padding: 20px 10px;
     margin-bottom: 10px;
@@ -158,7 +158,7 @@ body {
 }
 .main-section .top-nav{
     padding: 25px 30px;
-    background: #2b2a2a;
+    background: #030303;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -312,6 +312,10 @@ body {
 .spotify-playlist2 a {
     text-decoration: none;
 }
+.icones {
+    filter: brightness(0) invert(1);
+}
+
 
 
 
