@@ -5,6 +5,7 @@
 }
 body {
  background-color: #000;   
+ font-family: 'Gothan', sans-serif;
 }
 .sidebar {
     width: 300px;
